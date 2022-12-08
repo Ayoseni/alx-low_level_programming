@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- * A program printed with put 
+ * main - This prints with puts
+ * return: this returns 0 
  */
 int main(void)
 {
