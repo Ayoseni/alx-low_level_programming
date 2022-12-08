@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib>
+#include<unistd.h>
 
 /**
  * main - this will print a program without printf ot puts function
@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	write(STDOUT_FILENO, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n", 58);
 	return (1);
 }
 
