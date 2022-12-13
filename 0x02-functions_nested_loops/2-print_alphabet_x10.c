@@ -7,15 +7,13 @@
 
 void print_alphabet_x10(void)
 {
-	int times = 0, start, end;
+	int times = 0;
+	char letter;
 
-	while (times < 10)
+	while (times++ < 10)
 	{
-		start = 97, end = 122;
-			while (start <= end)
-			_putchar (start);
-			start++;
+		for (letter = 97; letter <= 122; letter++)
+			_putchar(letter);
+		_putchar('\n');
 	}
-	_putchar ('\n');
-	times++;
 }
