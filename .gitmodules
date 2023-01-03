@@ -1,0 +1,3 @@
+[submodule "0x07-pointers_arrays_strings/0x07-pointers_arrays_strings/alx-low_level_programming"]
+	path = 0x07-pointers_arrays_strings/0x07-pointers_arrays_strings/alx-low_level_programming
+	url = https://github.com/Ayoseni/alx-low_level_programming
