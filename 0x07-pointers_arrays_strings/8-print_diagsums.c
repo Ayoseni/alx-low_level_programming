@@ -18,7 +18,7 @@ void print_diagsums(int *a, int size)
 		{
 			if (i == j)
 			{
-				s = s + a[(size = 1) * i];
+				s = s + a[(size + 1) * i];
 			}
 			if (i + j == size - 1)
 			{
